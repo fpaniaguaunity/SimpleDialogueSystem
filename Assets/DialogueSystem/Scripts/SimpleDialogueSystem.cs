@@ -31,10 +31,14 @@ namespace fpfsimpledialoguesystem
         {
             dialoguePosition = 0;
             imagePosition = 0;
-            lines = File.ReadAllLines(Path);
+            TextAsset textFile = Resources.Load<TextAsset>(Path);
+            string content = textFile.text;
+            lines = content.Split("\n");
+            //lines = File.ReadAllLines(Path);
             dialogueUICharacterName.text = lines[dialoguePosition];
             dialogueUICharacterImage.sprite = CharacterImages[dialoguePosition % 2];
             dialogueUIText.text = lines[dialoguePosition + 1];
+            
         }
         private void Update()
         {
