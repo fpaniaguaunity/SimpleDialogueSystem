@@ -1,0 +1,16 @@
+Pili
+Hola
+Fernando
+Hola
+Pili
+Estás a las puertas de comenzar una nueva aventura. ¿Tienes miedo?
+Fernando
+No conozco el miedo
+Pili
+El miedo es una herramienta de supervivencia
+Fernando
+Es ajeno a mí
+Pili
+Suerte
+Fernando
+Gracias
